@@ -9,7 +9,7 @@ Quick and dirty **Vagrantfile** to setup a running **Ubuntu 64 bit** box contain
 
 This machine allows to run GUI applications built with Electron.
 
-[Here](https://flatmap.it/2016/10/25/vagrant-electron/) is a _detailed_ description of all steps to provision it.
+[Here](http://flatmap.it/2016/10/25/vagrant-electron/) is a _detailed_ description of all the steps performed to provision it.
 
 ---
 
