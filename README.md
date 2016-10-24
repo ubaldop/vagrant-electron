@@ -5,7 +5,7 @@ Quick and dirty **Vagrantfile** to setup a running **Ubuntu 64 bit** box contain
 
 - [NVM](https://github.com/creationix/nvm)
 - [Node.js](https://nodejs.org)
-- [Electron](https://electron.atom.io)
+- [Electron](http://electron.atom.io)
 
 This machine allows to run GUI applications built with Electron.
 
