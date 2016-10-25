@@ -25,7 +25,7 @@ SCRIPT
 
 Vagrant.configure(2) do |config|
 	hostname = HOSTNAME_MACHINE
-	locale = "it_IT.UTF.8"
+	locale = "en_GB.UTF.8"
 	# Box
 	config.vm.box = "ubuntu/trusty64"
 	# Shared folders
