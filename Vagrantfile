@@ -44,9 +44,10 @@ Vagrant.configure(2) do |config|
 
 	config.vm.provider "virtualbox" do |vb|
 		vb.customize	[
-										"modifyvm", :id,
-										"--memory", 1024,
-									]
+			"modifyvm", :id,
+			'--cableconnected1', 'on',
+			"--memory", 1024,
+			]
 
 		# Allow the creation of symlinks for nvm
 		# http://blog.liip.ch/archive/2012/07/25/vagrant-and-node-js-quick-tip.html
